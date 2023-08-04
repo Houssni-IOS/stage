@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import V1 from '../Videos/V1.mp4'
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 import Map from './Map';
