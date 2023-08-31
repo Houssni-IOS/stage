@@ -13,7 +13,7 @@ function Footer() {
 
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
             <h5 className="text-uppercase">Adresse</h5>
-            <a href="#!" className="text-dark" style={{ textDecoration: 'none' }}>Gueliz Nr 159 Marrakech Maroc.</a>
+            <a href="#!" className="text-dark" style={{ textDecoration: 'none' }}>Safi  Maroc.</a>
             {/* Insérez ici votre adresse */}
           </div>
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0">

@@ -21,7 +21,7 @@ function Header() {
             <div className="row justify-content-arround" style={{ backgroundColor: '#0047AB' }}>
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="col-md d-flex align-items-center ps-5">
-                        <img src={Logo} className="d-inline-block align-top" alt="" style={{ height: '10%', width: '10%' }} />
+                        <img src={Logo} className="d-inline-block align-top" alt="" style={{ height: '90%', width: '30%' }} />
                     </div>
                     <div className="col-sm-3 d-flex justify-content-end pe-5">
                         <button type="button" className="btn me-3" onClick={handleShowSignin} style={{ backgroundColor: '#004d78', color: 'white' ,  fontFamily: 'cursive' }}><b>Sign In</b></button>

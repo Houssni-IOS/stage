@@ -38,7 +38,7 @@ const reservations = async () => {
     <div className="row justify-content-arround" style={{ backgroundColor: '#0047AB' }}>
         <nav className="navbar navbar-expand-lg navbar-light">
             <div className="col-md d-flex align-items-center ps-5">
-                <img src={Logo} className="d-inline-block align-top" alt="" style={{ height: '10%', width: '21%' }} />
+                <img src={Logo} className="d-inline-block align-top" alt="" style={{ height: '90%', width: '61%' }} />
             </div>
             <div className="col-sm-3 d-flex justify-content-end pe-5">
                

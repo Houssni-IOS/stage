@@ -169,7 +169,7 @@ function ParkingDetails() {
       <div className="row justify-content-center">
         <div className="card" style={{ width: '50%' }}>
           <img className="card-img-top mt-3" src={parking.image} alt={parking.nomParking} />
-          <div className="card-body">
+        <div className="card-body">
             <p className="card-text" style={{ fontFamily: 'cursive' }}>
               <FaAddressCard /> {parking.adresse}
             </p>
@@ -215,7 +215,7 @@ function ParkingDetails() {
         </div>
       )}
 
-      <LoadScript googleMapsApiKey="AIzaSyBC7TrnSJ6ZvaNUaspY6zbmOAbrz5PFF04">
+      <LoadScript googleMapsApiKey="AIzaSyBa6js7lFRYmJgwM9wbNvCJF9NMqsNq4rw">
         {currentLocation && (
           <GoogleMap mapContainerStyle={{ width: '100%', height: '400px' }} center={currentLocation} zoom={15}>
             <Marker position={{ lat: parking.latitude, lng: parking.longitude }} />
@@ -233,6 +233,7 @@ function ParkingDetails() {
           </GoogleMap>
         )}
       </LoadScript>
+      
       <Footer />
     </div>
   );

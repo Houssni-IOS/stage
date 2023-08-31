@@ -57,7 +57,7 @@ function Map() {
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyBC7TrnSJ6ZvaNUaspY6zbmOAbrz5PFF04">
+    <LoadScript googleMapsApiKey="AIzaSyBa6js7lFRYmJgwM9wbNvCJF9NMqsNq4rw">
       {currentLocation && (
         <GoogleMap
           mapContainerStyle={containerStyle}

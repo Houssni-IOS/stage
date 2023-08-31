@@ -2,7 +2,9 @@
 .dropdown {
     position: relative;
   }
-
+  .carousel-item {
+    height: 400px; /* Adjust the height as needed */
+  }
   
   .dropdown::after {
     /* Add a down arrow icon after the select element */
